@@ -1,0 +1,21 @@
+{
+  "name": "kiban",
+  "version": "0.1.0",
+  "description": "A minimal scaffolding tool",
+  "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "main": "index.js",
+  "bin": "bin/cli.js",
+  "homepage": "https://github.com/rtsao/kiban",
+  "repository": "git@github.com:rtsao/kiban.git",
+  "bugs": "https://github.com/rtsao/kiban/issues",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "dependencies": {
+    "download-github-repo": "^0.1.3"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
+  },
+  "license": "MIT"
+}
